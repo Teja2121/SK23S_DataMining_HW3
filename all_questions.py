@@ -71,22 +71,22 @@ def question2():
     answers = {}
 
     # type: bool (True/False)
-    answers["(a)"] = -1
+    answers["(a)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = ""
+    answers["(a) explain"] = "It is true that each shaded area has one centroid because as it convergers, the centroid will be at the center of both of the circles."
 
     # type: bool (True/False)
-    answers["(b)"] = -1
+    answers["(b)"] = False
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "As K-means works by minimizing SSE, as some points in the 2nd cluster are closer to the centroid in the first cluster, they may end up in the first centroid's cluster."
 
     # type: bool (True/False)
-    answers["(c)"] = -1
+    answers["(c)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(c) explain"] = ""
+    answers["(c) explain"] = "The cluster with the centroid 12.5 will be empty because there is no point that is near to it."
 
     return answers
 
