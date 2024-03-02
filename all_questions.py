@@ -8,58 +8,58 @@ def question1():
     answers = {}
 
     # type: bool (True/False)
-    answers["(a)"] = -1
+    answers["(a)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = ""
+    answers["(a) explain"] = "It is true that agglomerative hierarchical clustering is better at handling outliers than k-means because agglomerative checks for the closet pair to match with and if the point is an outlier, then there might not be any other point for it to match with. In k-means the outliers tend to pull the centroid of the cluster in the way of the outlier, effecting the result."
 
     # type: bool (True/False)
-    answers["(b)"] = -1
+    answers["(b)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "K-means can have different centroids with the same k-value and it depends on where the centroids are initialized, but it isn't the same case for agglomerative hierarchical clustering."
 
     # type: bool (True/False)
-    answers["(c)"] = -1
+    answers["(c)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(c) explain"] = ""
+    answers["(c) explain"] = "While take less time and memory than agglomerative hierarchical clustering, it is efficient than agglomerative hierarchical clustering."
 
     # type: bool (True/False)
-    answers["(d)"] = -1
+    answers["(d)"] = False
 
     # type: explanatory string (at least four words)
-    answers["(d) explain"] = ""
+    answers["(d) explain"] = "It is false because the new point isn't neccessarily a point present in the cluster and the explanation to SSE is it decreases."
 
     # type: bool (True/False)
-    answers["(e)"] = -1
+    answers["(e)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(e) explain"] = ""
+    answers["(e) explain"] = "Cohesion is how closely the point are related to each other. So, decrease in SSE means increase in cohesion."
 
     # type: bool (True/False)
-    answers["(f)"] = -1
+    answers["(f)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(f) explain"] = ""
+    answers["(f) explain"] = "SSB is distance between two clusters, an increase in SSB means the clusters are far apart which means the seperation is higher."
 
     # type: bool (True/False)
-    answers["(g)"] = -1
+    answers["(g)"] = False
 
     # type: explanatory string (at least four words)
-    answers["(g) explain"] = ""
+    answers["(g) explain"] = "They are not independent but dependent because TSS is constant so while k-means is running, the SSE decreases, so SSB should increase, which means that there is a dependency between them."
 
     # type: bool (True/False)
-    answers["(h)"] = -1
+    answers["(h)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(h) explain"] = ""
+    answers["(h) explain"] = "SSE+ BSS is TSS which is total sum of squares which is always constant."
 
     # type: bool (True/False)
-    answers["(i)"] = -1
+    answers["(i)"] = False
 
     # type: explanatory string (at least four words)
-    answers["(i) explain"] = ""
+    answers["(i) explain"] = "Cohesion should be low, which means the points are related to each other and seperation should be high. In K-means, the relation between them is opposite so an increase in cohesion means a decrease in seperation."
 
     return answers
 
