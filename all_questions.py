@@ -98,12 +98,19 @@ def question3():
     answers = {}
 
     # type: a string that evaluates to a float
-    # a_SSE = ((b-r-b)^2+(a-a)^2) + ((b+r-b)^2+(a-a)^2) + ((b-b)^2+(a+r-a)^2) + ((b-b)^2+(a-r-a)^2)
-    # a_SSE = 4(r^2)
-    answers["(a) SSE"] = "4(r^2)"
+    a = int
+    b = int
+    r = int
+    a_SSE = ((b-r-b)^2+(a-a)^2) + ((b+r-b)^2+(a-a)^2) + ((b-b)^2+(a+r-a)^2) + ((b-b)^2+(a-r-a)^2) #SSE of the 4 data points to centroid
+    a_SSE = (r^2)+(r^2)+(r^2)+(r^2)
+    a_SSE = 4*(r^2)
+    answers["(a) SSE"] = "4*(r^2)"
 
     # type: a string that evaluates to a float
-    answers["(b) SSE"] = 7.5
+    b_SSE = ((b-r)^2+(a)^2) + ((b+r)^2+(a)^2) + ((b)^2+(a+r)^2) + ((b)^2+(a-r)^2)
+    b_SSE = (((b)^2 + (r)^2 - (2*b*r) + (a)^2) + ((b)^2 + (r)^2 + (2*b*r) + (a)^2) + ((b)^2 + (a)^2 + (r)^2 + (2*a*r)) + ((b)^2 + (a)^2 + (r)^2 - (2*a*r)))
+    b_SSE = 4 * ((b)^2 + (r)^2 + (a)^2)
+    answers["(b) SSE"] = "4 * ((a)^2) + (b)^2 + (r)^2"
 
     # type: a string that evaluates to a float
     answers["(c) SSE"] = 7.5
@@ -118,25 +125,25 @@ def question4():
     answers = {}
 
     # type: int
-    answers["(a) Circle (a)"] = 0
+    answers["(a) Circle (a)"] = 1
 
     # type: int
-    answers["(a) Circle (b)"] = 0
+    answers["(a) Circle (b)"] = 1
 
     # type: int
-    answers["(a) Circle (c)"] = 0
+    answers["(a) Circle (c)"] = 1
 
     # type: explanatory string (at least four words)
     answers["(a) explain"] = ""
 
     # type: int
-    answers["(b) Circle (a)"] = 0
+    answers["(b) Circle (a)"] = 1
 
     # type: int
-    answers["(b) Circle (b)"] = 0
+    answers["(b) Circle (b)"] = 1
 
     # type: int
-    answers["(b) Circle (c)"] = 0
+    answers["(b) Circle (c)"] = 1
 
     # type: explanatory string (at least four words)
     answers["(b) explain"] = ""
@@ -148,7 +155,7 @@ def question4():
     answers["(c) Circle (b)"] = 0
 
     # type: int
-    answers["(c) Circle (c)"] = 0
+    answers["(c) Circle (c)"] = 2
 
     # type: explanatory string (at least four words)
     answers["(c) explain"] = ""
