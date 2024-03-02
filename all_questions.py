@@ -98,7 +98,9 @@ def question3():
     answers = {}
 
     # type: a string that evaluates to a float
-    answers["(a) SSE"] = 7.5
+    # a_SSE = ((b-r-b)^2+(a-a)^2) + ((b+r-b)^2+(a-a)^2) + ((b-b)^2+(a+r-a)^2) + ((b-b)^2+(a-r-a)^2)
+    # a_SSE = 4(r^2)
+    answers["(a) SSE"] = "4(r^2)"
 
     # type: a string that evaluates to a float
     answers["(b) SSE"] = 7.5
