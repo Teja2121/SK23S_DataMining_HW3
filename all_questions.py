@@ -99,18 +99,18 @@ def question3():
     answers = {}
 
     # type: a string that evaluates to a float
-    a = int
-    b = int
-    r = int
-    a_SSE = ((b-r-b)^2+(a-a)^2) + ((b+r-b)^2+(a-a)^2) + ((b-b)^2+(a+r-a)^2) + ((b-b)^2+(a-r-a)^2) #SSE of the 4 data points to centroid
-    a_SSE = (r^2)+(r^2)+(r^2)+(r^2)
-    a_SSE = 4*(r^2)
+    #a = None
+    #b = None
+    #r = None
+    #a_SSE = ((b-r-b)**2+(a-a)**2) + ((b+r-b)**2+(a-a)**2) + ((b-b)**2+(a+r-a)**2) + ((b-b)**2+(a-r-a)**2) #SSE of the 4 data points to centroid
+    #a_SSE = (r**2)+(r**2)+(r**2)+(r**2)
+    #a_SSE = 4*(r**2)
     answers["(a) SSE"] = "4*(r**2)"
 
     # type: a string that evaluates to a float
-    b_SSE = ((b-r)^2+(a)^2) + ((b+r)^2+(a)^2) + ((b)^2+(a+r)^2) + ((b)^2+(a-r)^2)
-    b_SSE = (((b)^2 + (r)^2 - (2*b*r) + (a)^2) + ((b)^2 + (r)^2 + (2*b*r) + (a)^2) + ((b)^2 + (a)^2 + (r)^2 + (2*a*r)) + ((b)^2 + (a)^2 + (r)^2 - (2*a*r)))
-    b_SSE = 4 * ((b)^2 + (r)^2 + (a)^2)
+    #b_SSE = ((b-r)**2+(a)**2) + ((b+r)**2+(a)**2) + ((b)**2+(a+r)**2) + ((b)**2+(a-r)**2)
+    #b_SSE = (((b)**2 + (r)**2 - (2*b*r) + (a)**2) + ((b)**2 + (r)**2 + (2*b*r) + (a)**2) + ((b)**2 + (a)**2 + (r)**2 + (2*a*r)) + ((b)**2 + (a)**2 + (r)**2 - (2*a*r)))
+    #b_SSE = 4 * ((b)**2 + (r)**2 + (a)**2)
     answers["(b) SSE"] = "4 * (a**2 + b**2 + r**2)"
 
     # type: a string that evaluates to a float
