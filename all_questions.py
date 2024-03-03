@@ -171,13 +171,17 @@ def question5():
     answers = {}
 
     # type: set
-    answers["(a)"] = set(['A', 'B'])
+    answers["(a)"] = set()
+    answers["(a)"].add('A')
+    answers["(a)"].add('B')
 
     # type: explanatory string (at least four words)
     answers["(a) explain"] = "The MIN distance between group A and group B is smaller than min distance between group A and group c and also smaller than min distance between group B and group C."
 
     # type: set
-    answers["(b)"] = set(['A', 'C'])
+    answers["(b)"] = set()
+    answers["(a)"].add('A')
+    answers["(a)"].add('C')
 
     # type: explanatory string (at least four words)
     answers["(b) explain"] = ""
