@@ -180,7 +180,7 @@ def question5():
     answers["(b)"] = set(['A', 'C'])
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "These are four words for test."
 
     return answers
 
