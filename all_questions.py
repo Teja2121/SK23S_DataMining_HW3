@@ -324,22 +324,22 @@ def question9():
     answers = {}
 
     # type: list
-    answers["(a)"] = []
+    answers["(a)"] = ['hierarchical','overlapping','partial']
 
     # type: list
-    answers["(b)"] = []
+    answers["(b)"] = ['partitional','exclusive','complete']
 
     # type: list
-    answers["(c)"] = []
+    answers["(c)"] = ['partitional','exclusive','complete']
 
     # type: list
-    answers["(d)"] = []
+    answers["(d)"] = ['hierarchical','overlapping','partial']
 
     # type: list
-    answers["(e)"] = []
+    answers["(e)"] = ['partitional','exclusive','complete']
 
     # type: explanatory string (at least four words)
-    answers["(e) explain"] = ""
+    answers["(e) explain"] = "It is because every student will get a grade so complete, exclusive because no student can get 2 grades and partitional because students are divided according to their grade."
 
     return answers
 
