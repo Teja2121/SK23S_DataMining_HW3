@@ -135,7 +135,7 @@ def question4():
     answers["(a) Circle (c)"] = 1
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = ""
+    answers["(a) explain"] = "Here as the algorithm progresses, the left centroid and right centroid gets assingned to circle A and circle C respectively to reduce SSE and also as the circles are nearly at the same distance."
 
     # type: int
     answers["(b) Circle (a)"] = 1
@@ -147,7 +147,7 @@ def question4():
     answers["(b) Circle (c)"] = 1
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "As the circles are nearly at the same distance, the centroid in circle A remains in A and the right centroid in B gets assigned to circlce C to reduce SSE."
 
     # type: int
     answers["(c) Circle (a)"] = 0
@@ -159,7 +159,7 @@ def question4():
     answers["(c) Circle (c)"] = 2
 
     # type: explanatory string (at least four words)
-    answers["(c) explain"] = ""
+    answers["(c) explain"] = "As the distance between circles B and C is more than the distance between circles A and B, the centroid in A will come out of cirlce A to accomadate the points in circle A and B. The centroids in circles C remain in the circle because the distane would increase if they move out from the circle C."
 
     return answers
 
