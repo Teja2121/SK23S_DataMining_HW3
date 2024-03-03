@@ -192,7 +192,7 @@ def question6():
     answers = {}
 
     # type: set
-    answers["(a) core"] = set(['B', 'C', 'E', 'F', 'I', 'J', 'L', 'M'])
+    answers["(a) core"] = set(['B', 'C', 'E', 'F', 'I', 'J', 'L', 'M', 2])
 
     # type: set
     answers["(a) boundary"] = set(['D', 'G'])
