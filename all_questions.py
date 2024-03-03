@@ -171,7 +171,7 @@ def question5():
     answers = {}
 
     # type: set
-    answers["(a)"] = set(['A', 'B', 'C'])
+    answers["(a)"] = set(['A', 'B'])
 
     # type: explanatory string (at least four words)
     answers["(a) explain"] = "The MIN distance between group A and group B is smaller than min distance between group A and group c and also smaller than min distance between group B and group C."
@@ -180,7 +180,7 @@ def question5():
     answers["(b)"] = set(['A', 'C'])
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = "These are four words for test."
+    answers["(b) explain"] = "Complete linkage works by selecting the minimum of the largest pairwise distance between the clusters, So this means the maximum distance between A and C is less when compared to the maximum distance between group B, group C and also group A, group B."
 
     return answers
 
