@@ -114,7 +114,20 @@ def question3():
     answers["(b) SSE"] = "4 * (a**2 + b**2 + r**2)"
 
     # type: a string that evaluates to a float
-    answers["(c) SSE"] = 7.5
+    #for centroid d, distance be a,b on horizontal and vertical axis.
+    #the bottom points be the u', v', w', x' be the mirror image of top points, then:
+    #total_sse = sse(u) + sse(v) + sse(w) + sse(x) + sse(u') + sse(v') + sse(w') + sse(x')
+    #sse(u) = ((a-a)**2) + ((b-(b+(3/2)*r))**2) = ((3/2) * r)**2
+    #sse(v) = ((a-(a-(r/2))**2) + ((b-(b+r))**2) = ((r/2)**2) + (r**2)
+    #sse(w) = ((a-(a+(r/2)))**2) + ((b-(b+r))**2) = ((r/2)**2) + (r**2)
+    #sse(x) = ((a-a)**2) + (y-(y+(r/2)))**2 = (r/2)**2
+    #sse(x') = ((a-a)**2) + (y-(y-(r/2)))**2 = (r/2)**2
+    #sse(v') = ((a-(a-(r/2))**2) + ((b-(b-r))**2) = ((r/2)**2) + (r**2)
+    #sse(w') = ((a-(a+(r/2)))**2) + ((b-(b-r))**2) = ((r/2)**2) + (r**2)
+    #sse(u') = ((a-a)**2) + ((b-(b-(3/2)*r))**2) = ((3/2) * r)**2
+    #total_sse = ((3/2) * r)**2 + ((r/2)**2) + (r**2) + ((r/2)**2) + (r**2) + (r/2)**2 + (r/2)**2 + ((r/2)**2) + (r**2) + ((r/2)**2) + (r**2) + ((3/2) * r)**2
+    #total_sse = 8*(r**2)
+    answers["(c) SSE"] = "8*(r**2)"
 
     return answers
 
