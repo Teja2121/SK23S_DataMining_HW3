@@ -351,25 +351,25 @@ def question10():
     answers = {}
 
     # type: string
-    answers["(a) Figure (a)"] = ""
+    answers["(a) Figure (a)"] = "Yes"
 
     # type: string
-    answers["(a) Figure (b)"] = ""
+    answers["(a) Figure (b)"] = "Yes"
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = ""
+    answers["(a) explain"] = "In both cases DBSCAN might work as the density in the regions might be enough for the DBSCAN algorithm to work in figure a and figure b, provided we choose the min points and radius carefully. DBSCAN might work better in figure (a) when compared to figure (b)"
 
     # type: string
-    answers["(b) Figure (a)"] = ""
+    answers["(b) Figure (a)"] = "No"
 
     # type: string
-    answers["(b) Figure (b)"] = ""
+    answers["(b) Figure (b)"] = "No"
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "K-means might not work in both the cases because when clustering, k-means assumes a globular shape and somewaht similar density. This isn't the case in both of the figures."
 
     # type: string
-    answers["(c)"] = ""
+    answers["(c)"] = "agglomerative hierarchical clustering"
 
     return answers
 
