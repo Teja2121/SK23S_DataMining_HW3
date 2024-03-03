@@ -264,55 +264,55 @@ def question8():
     answers = {}
 
     # type: string
-    answers["(a) Matrix 1"] = ""
+    answers["(a) Matrix 1"] = "Dataset Z"
 
     # type: explanatory string (at least four words)
-    answers["(a) explain diag entries, Matrix 1"] = ""
+    answers["(a) explain diag entries, Matrix 1"] = "The diagonal entries seem to be very closely packed, indicating lesser intra cluster distance when comapred to the other matrices and only dataset Z has all entries closely packed."
 
     # type: explanatory string (at least four words)
-    answers["(a) explain non-diag entries, Matrix 1"] = ""
+    answers["(a) explain non-diag entries, Matrix 1"] = "As the diagonal entries indicate cluster A,B,C,D from top to bottm, we can see that cluster B and cluster D which is inter cluster distance has the maximum distance, thus indicated by the color red in dataset Z."
 
     # type: string
-    answers["(a) Matrix 2"] = ""
+    answers["(a) Matrix 2"] = "Dataset X"
 
     # type: explanatory string (at least four words)
-    answers["(a) explain diag entries, Matrix 2"] = ""
+    answers["(a) explain diag entries, Matrix 2"] = "Intra cluster distance in B and C appear to be small and they are closely packed hence the dark blue color, while A and D have lesser density hence the lighter shade of dark blue color."
 
     # type: explanatory string (at least four words)
-    answers["(a) explain non-diag entries, Matrix 2"] = ""
+    answers["(a) explain non-diag entries, Matrix 2"] = "The distance between A and D (inter cluster distance) appear to be the largeset hence the red coloring and B and C are relatively closer hence the light blue shade."
 
     # type: string
-    answers["(a) Matrix 3"] = ""
+    answers["(a) Matrix 3"] = "Dataset Y"
 
     # type: explanatory string (at least four words)
-    answers["(a) explain diag entries, Matrix 3"] = ""
+    answers["(a) explain diag entries, Matrix 3"] = "The clusters B and C has the lowest intra cluster distance hence the darkest blue while A and D have a lesser shade of dark blue because the intra cluster distance is more than B and C"
 
     # type: explanatory string (at least four words)
-    answers["(a) explain non-diag entries, Matrix 3"] = ""
+    answers["(a) explain non-diag entries, Matrix 3"] = "The intercluster distance between B and D is the largest so it is colored red."
 
     # type: string
-    answers["(b) Row 1"] = ""
+    answers["(b) Row 1"] = "A"
 
     # type: string
-    answers["(b) Row 2"] = ""
+    answers["(b) Row 2"] = "B"
 
     # type: string
-    answers["(b) Row 3"] = ""
+    answers["(b) Row 3"] = "C"
 
     # type: string
-    answers["(b) Row 4"] = ""
+    answers["(b) Row 4"] = "D"
 
     # type: explanatory string (at least four words)
-    answers["(b) Row 1 explain"] = ""
+    answers["(b) Row 1 explain"] = "The distance between A and D is high so the last column of row 1 should be red which is the case for 1st row of the matrix."
 
     # type: explanatory string (at least four words)
-    answers["(b) Row 2 explain"] = ""
+    answers["(b) Row 2 explain"] = "The distance between B and C is small so the 3rd column should be somewhat blue and the fourth column is the distance between B and D which should be more distance so greenish color, which is the 2nd row."
 
     # type: explanatory string (at least four words)
-    answers["(b) Row 3 explain"] = ""
+    answers["(b) Row 3 explain"] = "The first column should be greenish because the distance between C and A is high, which is the 3rd row."
 
     # type: explanatory string (at least four words)
-    answers["(b) Row 4 explain"] = ""
+    answers["(b) Row 4 explain"] = "The distance between D and A is high, so the first column should be red, which is the 4th row."
 
     return answers
 
