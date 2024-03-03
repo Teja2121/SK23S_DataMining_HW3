@@ -61,6 +61,7 @@ def question1():
     # type: explanatory string (at least four words)
     answers["(i) explain"] = "Cohesion should be low, which means the points are related to each other and seperation should be high. In K-means, the relation between them is opposite so an increase in cohesion means a decrease in seperation."
 
+
     return answers
 
 
@@ -104,13 +105,13 @@ def question3():
     a_SSE = ((b-r-b)^2+(a-a)^2) + ((b+r-b)^2+(a-a)^2) + ((b-b)^2+(a+r-a)^2) + ((b-b)^2+(a-r-a)^2) #SSE of the 4 data points to centroid
     a_SSE = (r^2)+(r^2)+(r^2)+(r^2)
     a_SSE = 4*(r^2)
-    answers["(a) SSE"] = "4*(r^2)"
+    answers["(a) SSE"] = "4*(r**2)"
 
     # type: a string that evaluates to a float
     b_SSE = ((b-r)^2+(a)^2) + ((b+r)^2+(a)^2) + ((b)^2+(a+r)^2) + ((b)^2+(a-r)^2)
     b_SSE = (((b)^2 + (r)^2 - (2*b*r) + (a)^2) + ((b)^2 + (r)^2 + (2*b*r) + (a)^2) + ((b)^2 + (a)^2 + (r)^2 + (2*a*r)) + ((b)^2 + (a)^2 + (r)^2 - (2*a*r)))
     b_SSE = 4 * ((b)^2 + (r)^2 + (a)^2)
-    answers["(b) SSE"] = "4 * ((a)^2) + (b)^2 + (r)^2"
+    answers["(b) SSE"] = "4 * (a**2 + b**2 + r**2)"
 
     # type: a string that evaluates to a float
     answers["(c) SSE"] = 7.5
