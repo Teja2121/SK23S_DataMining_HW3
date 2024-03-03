@@ -177,7 +177,7 @@ def question5():
     answers["(a) explain"] = "The MIN distance between group A and group B is smaller than min distance between group A and group c and also smaller than min distance between group B and group C."
 
     # type: set
-    answers["(b)"] = set(['A' ,'C'])
+    answers["(b)"] = set(['A', 'C'])
 
     # type: explanatory string (at least four words)
     answers["(b) explain"] = ""
@@ -192,7 +192,7 @@ def question6():
     answers = {}
 
     # type: set
-    answers["(a) core"] = set(['B', 'C', 'E', 'F', 'I', 'J', 'L', 'M', 2])
+    answers["(a) core"] = set(['B', 'C', 'E', 'F', 'I', 'J', 'L', 'M'])
 
     # type: set
     answers["(a) boundary"] = set(['D', 'G'])
