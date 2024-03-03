@@ -243,16 +243,16 @@ def question7():
     answers = {}
 
     # type: string
-    answers["(a)"] = ""
+    answers["(a)"] = "Cluster 4"
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = ""
+    answers["(a) explain"] = "Cluster 4 had the largest clustering entropy because all the points are nearly even in this cluster and this results in a high entropy."
 
     # type: string
-    answers["(b)"] = ""
+    answers["(b)"] = "Cluster 1"
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "Cluster 1 seems to have the least entropy because nearly all the points appear to be in water, which results in low entropy."
 
     return answers
 
