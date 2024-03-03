@@ -171,13 +171,13 @@ def question5():
     answers = {}
 
     # type: set
-    answers["(a)"] = set()
+    answers["(a)"] = set(['A', 'B'])
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = ""
+    answers["(a) explain"] = "The MIN distance between group A and group B is smaller than min distance between group A and group c and also smaller than min distance between group B and group C."
 
     # type: set
-    answers["(b)"] = set()
+    answers["(b)"] = set(['A', 'C'])
 
     # type: explanatory string (at least four words)
     answers["(b) explain"] = ""
@@ -192,40 +192,40 @@ def question6():
     answers = {}
 
     # type: set
-    answers["(a) core"] = set()
+    answers["(a) core"] = set(['B', 'C', 'E', 'F', 'I', 'J', 'L', 'M'])
 
     # type: set
-    answers["(a) boundary"] = set()
+    answers["(a) boundary"] = set(['D', 'G'])
 
     # type: set
-    answers["(a) noise"] = set()
+    answers["(a) noise"] = set(['A', 'H'])
 
     # type: set
-    answers["(b) cluster 1"] = set()
+    answers["(b) cluster 1"] = set(['A'])
 
     # type: set
-    answers["(b) cluster 2"] = set()
+    answers["(b) cluster 2"] = set(['B', 'C', 'D', 'E', 'F', 'G'])
 
     # type: set
-    answers["(b) cluster 3"] = set()
+    answers["(b) cluster 3"] = set(['H'])
 
     # type: set
-    answers["(b) cluster 4"] = set()
+    answers["(b) cluster 4"] = set(['I', 'J', 'L', 'M'])
 
     # type: set
-    answers["(c)-a core"] = set()
+    answers["(c)-a core"] = set(['B', 'C', 'D', 'E', 'F', 'G', 'I', 'J', 'L', 'M'])
 
     # type: set
-    answers["(c)-a boundary"] = set()
+    answers["(c)-a boundary"] = set(['A', 'H'])
 
     # type: set
     answers["(c)-a noise"] = set()
 
     # type: set
-    answers["(c)-b cluster 1"] = set()
+    answers["(c)-b cluster 1"] = set('A', 'B', 'C', 'D', 'E', 'F', 'G')
 
     # type: set
-    answers["(c)-b cluster 2"] = set()
+    answers["(c)-b cluster 2"] = set('H', 'I', 'J', 'L', 'M')
 
     # type: set
     answers["(c)-b cluster 3"] = set()
